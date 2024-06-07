@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is lanuched]]>
+    </line>
+    <line>
+      <![CDATA[Browser is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Application get launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser get quited]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-27T14:17:57 IST" name="Default suite" finished-at="2024-05-27T14:18:06 IST" duration-ms="9061">
+    <groups>
+    </groups>
+    <test started-at="2024-05-27T14:17:57 IST" name="Default test" finished-at="2024-05-27T14:18:06 IST" duration-ms="9061">
+      <class name="TestCases.DemoTC_01Test">
+        <test-method is-config="true" signature="ToLaunch()[pri:0, instance:TestCases.DemoTC_01Test@131774fe]" started-at="2024-05-27T14:17:57 IST" name="ToLaunch" finished-at="2024-05-27T14:18:01 IST" duration-ms="4607" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is lanuched]]>
+            </line>
+            <line>
+              <![CDATA[Browser is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ToLaunch -->
+        <test-method is-config="true" signature="ToNavigate()[pri:0, instance:TestCases.DemoTC_01Test@131774fe]" started-at="2024-05-27T14:18:01 IST" name="ToNavigate" finished-at="2024-05-27T14:18:04 IST" duration-ms="3026" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application get launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ToNavigate -->
+        <test-method signature="ClickOnRegisterLink()[pri:0, instance:TestCases.DemoTC_01Test@131774fe]" started-at="2024-05-27T14:18:04 IST" name="ClickOnRegisterLink" finished-at="2024-05-27T14:18:05 IST" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnRegisterLink -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestCases.DemoTC_01Test@131774fe]" started-at="2024-05-27T14:18:05 IST" name="Logout" finished-at="2024-05-27T14:18:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseTheBrowser()[pri:0, instance:TestCases.DemoTC_01Test@131774fe]" started-at="2024-05-27T14:18:05 IST" name="CloseTheBrowser" finished-at="2024-05-27T14:18:06 IST" duration-ms="514" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser get quited]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseTheBrowser -->
+      </class> <!-- TestCases.DemoTC_01Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
